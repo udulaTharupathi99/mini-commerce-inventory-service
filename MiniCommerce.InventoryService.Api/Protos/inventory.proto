@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "MiniCommerce.InventoryService.Api.Grpc";
+
+package inventory;
+
+// Request message
+message StockRequest {
+  string productId = 1;
+  int32 quantity = 2;
+}
+
+// Response message
+message StockResponse {
+  bool available = 1;
+  string message = 2;
+}
+
+// The inventory gRPC service definition
+service InventoryGrpc {
+  rpc CheckStock (StockRequest) returns (StockResponse);
+}

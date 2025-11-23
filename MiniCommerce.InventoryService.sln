@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCommerce.InventoryService.Api", "MiniCommerce.InventoryService.Api\MiniCommerce.InventoryService.Api.csproj", "{145C4FFF-287D-49C4-91DF-EB3C43D37E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCommerce.InventoryService.Domain", "MiniCommerce.InventoryService.Domain\MiniCommerce.InventoryService.Domain.csproj", "{BB6A2DC3-12F6-4C79-8E46-80129BAFB501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCommerce.InventoryService.Application", "MiniCommerce.InventoryService.Application\MiniCommerce.InventoryService.Application.csproj", "{6D88873F-A6DA-4493-9FEE-99FCC276116C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCommerce.InventoryService.Infrastructure", "MiniCommerce.InventoryService.Infrastructure\MiniCommerce.InventoryService.Infrastructure.csproj", "{238ADF43-96C6-4B52-8AD8-B4FD93490D79}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145C4FFF-287D-49C4-91DF-EB3C43D37E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145C4FFF-287D-49C4-91DF-EB3C43D37E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145C4FFF-287D-49C4-91DF-EB3C43D37E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145C4FFF-287D-49C4-91DF-EB3C43D37E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6A2DC3-12F6-4C79-8E46-80129BAFB501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6A2DC3-12F6-4C79-8E46-80129BAFB501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6A2DC3-12F6-4C79-8E46-80129BAFB501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6A2DC3-12F6-4C79-8E46-80129BAFB501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D88873F-A6DA-4493-9FEE-99FCC276116C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D88873F-A6DA-4493-9FEE-99FCC276116C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D88873F-A6DA-4493-9FEE-99FCC276116C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D88873F-A6DA-4493-9FEE-99FCC276116C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238ADF43-96C6-4B52-8AD8-B4FD93490D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238ADF43-96C6-4B52-8AD8-B4FD93490D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238ADF43-96C6-4B52-8AD8-B4FD93490D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238ADF43-96C6-4B52-8AD8-B4FD93490D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9555BD35-C544-48A2-ACD5-A60E258E3A18}
+	EndGlobalSection
+EndGlobal

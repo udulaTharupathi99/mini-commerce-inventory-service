@@ -1,0 +1,6 @@
+services:
+  minicommerce.inventoryservice.api:
+    image: ${DOCKER_REGISTRY-}minicommerceinventoryserviceapi
+    build:
+      context: .
+      dockerfile: MiniCommerce.InventoryService.Api/Dockerfile
